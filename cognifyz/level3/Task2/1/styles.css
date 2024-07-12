@@ -1,0 +1,75 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.6;
+    background-image: url(https://cdn.vectorstock.com/i/500p/42/90/pattern-leaf-green-vector-27124290.jpg);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #3a7686;
+    color: rgb(8, 10, 11);
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.overview, .highlights, .qualifications, .cta {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.overview h2, .highlights h2, .qualifications h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.overview p, .highlights ul, .qualifications ul {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #3a7686;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #000000;
+}
+
+footer {
+    background-color: #3a7686;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
